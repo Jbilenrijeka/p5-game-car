@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: linear-gradient(-45deg, #ee7752, #d6ec73, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+h1{
+    margin-top: 3px;
+    padding: 20px 230px;
+    font-family:'Dancing Script', cursive;
+    font-weight: 600;
+    font-size: 50px;
+    color: #0e0e0e;
+    background-color: #b8c3b9;
+    border-radius: 5px;
+    border: 2px solid #080808;
+    margin-bottom: -12px;
+    
+    
+}
+
+h2{
+    margin-top: 10px;
+    margin-bottom:3px;
+    padding: 30px 250px;
+    font-family: 'Concert One', cursive;
+    font-weight: 600;
+    font-size: 30px;
+    color: #0a0a0a;
+    background-color: #b8c3b9;
+    border-radius: 5px;
+    border: 2px solid #090909;
+   
+}
+
+div {
+    background-position: 0cm;
+    width: 950px;
+  height: 660px;
+  padding-top: 50px;
+  font-family: 'Concert One', cursive;
+  background-color: #b8c3b9;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+  border: 2px solid rgb(0, 0, 0);
+  margin-top: -3px;
+  line-height: 3em;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+#start {
+
+    margin-top: -100px;
+    margin-bottom:3px;
+    margin-left: 120px;
+    padding: 30px 250px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #0a0a0a;
+    background-color: #b8c3b9;
+    border-radius: 5px;
+    border: 2px solid #090909;
+
+}
+
+
+ 
+
+
